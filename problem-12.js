@@ -32,13 +32,12 @@ if (i%2==0) {
 }
 console.log(sum);
 //third # - 
-var first = "# ";
-var second = "# - ";
+var result =[]
 for (let i = 1; i < 10; i++) {
     if (i % 2!=0) {
-        first = first * i;
+       result.push('# ');
     }else{
-        second = second * i;
+        result.push('-');
     } 
 }
-console.log(second);
+console.log(result.join(' '));
