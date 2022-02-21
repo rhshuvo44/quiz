@@ -60,7 +60,7 @@ for (let i = 1; i <= num5; i++) {
 console.log(`p=4`);
 let str="";
 for (let i = 1; i <= n; i++) {
-    for (let j = 0; j < n-1; j++) {
+    for (let j = 0; j < n-i; j++) {
         str= str+" ";
         
     }
